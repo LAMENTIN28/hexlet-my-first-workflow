@@ -36,5 +36,4 @@ jobs:
           echo test, and deploy your project.
 
       - name: Run make say-hello
-        run:
-          make say-hello
+        run: make say-hello
