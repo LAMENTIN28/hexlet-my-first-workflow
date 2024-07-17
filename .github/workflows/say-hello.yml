@@ -1,0 +1,17 @@
+# .github/workflows/say-hello.yml
+
+name: Say Hello
+
+on: [push]
+
+jobs:
+  say-hello-job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Run make say-hello
+        run: make say-hello
+
