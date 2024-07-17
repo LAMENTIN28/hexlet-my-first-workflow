@@ -50,3 +50,6 @@ jobs:
       - name: Install dependencies
         run: poetry install
 
+      - name: Run make say-hello
+        run: make say-hello
+
