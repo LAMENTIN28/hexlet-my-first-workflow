@@ -35,3 +35,7 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
 
+      # Runs the make say-hello command
+      - name: Run make say-hello
+        run: make say-hello
+
