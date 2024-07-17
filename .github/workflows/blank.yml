@@ -35,6 +35,6 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
 
-      - name: Run heloing
+      - name: Run make say-hello
         run:
           make say-hello
