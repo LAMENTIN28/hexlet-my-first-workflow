@@ -1,2 +1,2 @@
 say-hello:
-	poetry run say-hello
+	poetry run say_hello
