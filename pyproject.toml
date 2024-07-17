@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "say_hello"
+version = "0.1.0"
+description = ""
+authors = ["LAMENTIN28 <perpendomobile@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+colorama = "^0.4.6"
+
+
+[tool.poetry.scripts]
+say-hello = "say_hello.scripts.say-hello:say_hello"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
